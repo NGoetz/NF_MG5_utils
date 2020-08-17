@@ -1,0 +1,10 @@
+define ud=u d
+define udx=u~ d~
+define v = a z
+
+generate e+ e- > l- l+
+output standalone logs_nis/F1
+launch -f 
+!cp PLUGIN/exec_mc.sh  logs_nis/F1
+! cd logs_nis/F1 &&./exec_mc.sh logs_nis/F1
+
